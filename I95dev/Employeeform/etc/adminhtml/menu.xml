@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="I95dev_Employeeform::Employee" title="Employee" translate="title" module="I95dev_Employeeform" sortOrder="200"  resource="I95dev_Employeeform::parent"/>
+        <add id="I95dev_Employeeform::Employee_details" title="employee details" translate="title" module="I95dev_Employeeform" sortOrder="200" parent="I95dev_Employeeform::Employee" action="employee/details/index" resource="I95dev_Employeeform::parent"/>
+        
+    </menu>
+</config>
